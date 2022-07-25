@@ -8,16 +8,14 @@ $(document).ready(function(){
     var windowHeight = $(this).height();
     var center = Math.floor(windowHeight / 2);
     var initialSize = 2;
-    console.log("hola");  
-    console.log($(this));
 
     // Check how far is it away from the center
     $('.text').each(function(e){
       // calcula el valor del h1 - el lugar donde está el top de la barra scroll
-      
+      /*
       console.log($(this));
       console.log($(this).offset().top);
-
+      */
       var howFar = $(this).offset().top - $(window).scrollTop();
       /*
       if (howFar < windowHeight && howFar >= 0) {

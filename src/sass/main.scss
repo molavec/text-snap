@@ -6,10 +6,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.init, .end {
-  background-color: #000;
-  height: 10vh;
-}
 
 .wise-lines {
   height: 100vh;
@@ -30,10 +26,17 @@ body {
   scroll-snap-align: center;
   font-family: 'Poppins';
   font-weight: 400;
-  margin: 1em 0;
+  background-color: #000;
+}
+
+
+.text {
   font-size: 1.2em;
-  transition: 2.5s all ease-in-out;
+  transition: 0.8s all ease-in-out;
   color: #FFFFFF44;
-  background-color: #dd1111;
-  border: 1px #FFF dashed;
+}
+
+.text:first-child {
+  font-size: 2.2em;
+  color: #FFF;
 }
