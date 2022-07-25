@@ -1,3 +1,6 @@
+#Elimina deja de seguir el cache de parcel
+
+
 #Añade aquí archivos que desees ignorar
 #Dependencias node https://docs.npmjs.com/cli/shrinkwrap#caveats
 node_modules
