@@ -2,6 +2,8 @@
 
 A simple Vertical Snap Text example.
 
+[See here an example](https://codepen.io/molavec/pen/wvmqEyG)
+
 
 ## File structure
 
